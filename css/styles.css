@@ -73,20 +73,34 @@ header h1 {
     color: white;
 }
 
-.luca-nav a {
+.luca-nav-content a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    border-bottom: .0625rem solid #ccc;
+
+    
 }
 
 .luca-nav li {
     list-style-type: none;
-    border-bottom: .0625rem solid #ccc;
     text-align: center;
     padding: .0625rem;
 }
 
 .luca-nav {
+    position: relative;
+}
+
+.luca-nav-content {
+   min-width: 18rem;
+   max-height: 21.375rem;
+
+   margin-top: 5rem;
+
+   position: absolute;
+    
+
     visibility: visible;
     opacity: 1;
 }
