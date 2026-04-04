@@ -5,8 +5,68 @@
 
 body {
 background: var(--Greeny-Blue);
+font-family: "PT Sans";
 }
 
 svg {
     width: 9rem;
 }
+
+a,
+p {
+    font-family: "PT Sans";
+}
+
+/* header */
+header {
+    background-color: var(--purp);
+    font-family: "PT Sans";
+
+}
+
+header h1 {
+    font-size: .875rem;
+    font-family: "PT Sans";
+    line-height: 150%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+}
+
+/* icons */
+.toggle-nav {
+
+}
+
+.logo {
+
+}
+
+.shop {
+    
+}
+
+/* BTN */
+.btn {
+    margin-left: 1rem;
+    margin-right: 3.9375rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: block;
+    width: 50%;
+    border: .125rem solid none;
+    background-color: var(--purp);
+    text-align: center;
+}
+
+.btn a {
+    color: white;
+    font-size: 1rem;
+    font-family: "PT Sans";
+    line-height: 150%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
