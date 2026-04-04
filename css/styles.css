@@ -45,7 +45,6 @@ header h1 {
 
 .toggle-nav {
     width: 2.375rem;
-    position: absolute;
     margin-left: 1rem;
     margin-top: 1rem;
 }
@@ -53,7 +52,7 @@ header h1 {
 .logo {
     min-width: 8.3125rem;
     min-height: 1.25rem;
-    margin-left: 5.9375rem;
+    margin-left: 3.25rem;
     padding-top: 1.25rem;
     
 }
@@ -67,10 +66,37 @@ header h1 {
     padding-bottom: 1.6875rem;
 }
 
-/* Nav */
+/* Body */
 
-.luca {
+.luca h2, p {
     color: white;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    width: 40%;
+}
+
+.luca h2 {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: normal;
+}
+
+.luca p {
+    padding-bottom: 2.5rem;
+}
+
+.luca span {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Nav */
+.luca-nav {
+    padding: 1rem;
 }
 
 .luca-nav-content a {
@@ -78,29 +104,29 @@ header h1 {
     text-transform: uppercase;
     color: white;
     border-bottom: .0625rem solid #ccc;
-
-    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
-.luca-nav li {
-    list-style-type: none;
-    text-align: center;
-    padding: .0625rem;
+.home {
+     border-top: .0625rem solid #ccc;
 }
 
 .luca-nav {
     position: relative;
 }
+.luca-nav li {
+    list-style-type: none;
+    
+}
+
+
 
 .luca-nav-content {
    min-width: 18rem;
    max-height: 21.375rem;
-
-   margin-top: 5rem;
-
-   position: absolute;
-    
-
     visibility: visible;
     opacity: 1;
 }
@@ -114,7 +140,7 @@ header h1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     display: block;
-    width: 50%;
+    width: 60%;
     border: .125rem solid none;
     background-color: var(--purp);
     text-align: center;
