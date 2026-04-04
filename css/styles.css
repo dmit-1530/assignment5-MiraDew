@@ -1,0 +1,12 @@
+:root {
+ --Greeny-Blue: linear-gradient(to right, #46A098, #54A654);
+ --purp: #9846A0;
+}
+
+body {
+background: var(--Greeny-Blue);
+}
+
+svg {
+    width: 9rem;
+}
