@@ -9,7 +9,8 @@ font-family: "PT Sans";
 }
 
 svg {
-    width: 9rem;
+   display: inline-block;
+   
 }
 
 a,
@@ -19,9 +20,16 @@ p {
 
 /* header */
 header {
+    position: relative;
+    position: fixed;
+    width: 100%;
+    position: sticky;
+    min-width: 320px;
+    min-height: 79px;
     background-color: var(--purp);
     font-family: "PT Sans";
-
+    align-items: flex-start;
+    display: flex;
 }
 
 header h1 {
@@ -34,16 +42,29 @@ header h1 {
 }
 
 /* icons */
-.toggle-nav {
 
+.toggle-nav {
+    width: 2.375rem;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .logo {
-
+    min-width: 8.3125rem;
+    min-height: 1.25rem;
+    margin-left: 5.9375rem;
+    padding-top: 1.25rem;
+    
 }
 
 .shop {
-    
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    padding-left: 17.5rem;
+    margin-right: 1rem;
+    padding-bottom: 1.6875rem;
+    padding-top: 1.75rem;
 }
 
 /* BTN */
